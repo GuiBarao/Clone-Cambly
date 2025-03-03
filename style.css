@@ -54,9 +54,41 @@ body{
 .fundo {
     width: 100%;
     z-index: -1;
-    max-height: 75vh;
+    max-height: 85vh;
     object-fit: cover;
 }
+
+main {
+    margin : 0;
+    padding: 0;
+}
+
+.infos {
+    display : flex;
+    background-color: #ffe733;
+    flex-direction: row;
+    font-size: 10px;
+    font-family: "Merriweather", serif;
+    justify-content: center;
+    gap : 8%;
+    
+}
+
+.infos__content {
+    display : flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    height : 10vh;
+}
+
+.infos__content img {
+    height: 60%;
+}
+
+
+
+
 
 
 
