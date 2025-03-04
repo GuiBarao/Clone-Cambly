@@ -82,9 +82,6 @@ header .buttons-header .entrar
 
 
 
-
-
-
 body{
     box-sizing: border-box;
 }
@@ -180,7 +177,85 @@ main {
     flex-direction: column;
 }
 
+.propostas {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 8%;
+    justify-content: center;
+    gap: 70px;
+}
 
+.propostas__content {
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-sizing: border-box;
+    gap: 18px;
+
+}
+
+.propostas__content h1{
+
+    font-family: "Merriweather", serif;
+    font-size: 40px;
+    font-weight: 500;
+
+}
+
+.propostas__content__texto{
+    font-family: "Roboto", sans-serif;
+    padding-left: 23%;
+    padding-right: 23%;
+    font-size: 15px;
+    color: rgba(18, 18, 18, 0.618);
+
+}
+
+.propostas__content a{
+    background-color: #ffe733;
+    padding: 2%;
+    width: 20%;
+    margin-left: 40%;
+    border-radius : 50px;
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+}
+
+.propostas__content__imgs {
+
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    justify-content: center;
+    z-index: -1;
+    object-fit: cover;
+}
+
+.propostas__content__imgs img{
+    width: 800px;
+    
+
+}
+
+.propostas__content__imgs__legendas {
+    color: black;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    font-family: "Merriweather", serif;
+    font-size: 15px;
+    font-weight: 500;
+    width: 100%;
+
+    margin-top : 2%;
+    justify-content: center;
+    gap: 23%;
+
+
+}
 
 
 
