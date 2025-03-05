@@ -257,16 +257,17 @@ main {
     background-color: #ffe733;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
     padding: 5vh;
-    height: 100vh;
+    height: 150vh;
+    gap: 4vh;
     
 }
 
 .progresso-nao-perfeicao h1{
     font-family: "Merriweather", serif;
     font-size: 63px;
+    margin-top: 10vh;
 
 }
 
@@ -279,6 +280,7 @@ main {
 
 .progresso-nao-perfeicao video {
     size: 100vh;
+    margin-top: 10vh;
 }
 
 
