@@ -251,8 +251,34 @@ main {
 
     padding: 25px;
     width: 91.8vh;
+}
 
+.progresso-nao-perfeicao {
+    background-color: #ffe733;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5vh;
+    height: 100vh;
     
+}
+
+.progresso-nao-perfeicao h1{
+    font-family: "Merriweather", serif;
+    font-size: 63px;
+
+}
+
+.progresso-nao-perfeicao p {
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    color: #5E5952;
+
+}
+
+.progresso-nao-perfeicao video {
+    size: 100vh;
 }
 
 
