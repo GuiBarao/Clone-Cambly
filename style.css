@@ -215,9 +215,9 @@ main {
 
 .propostas__content a{
     background-color: #ffe733;
-    padding: 2%;
-    width: 20%;
-    margin-left: 40%;
+    padding: 20px;
+    width: 200px;
+    margin-left: 455px;
     border-radius : 50px;
     font-family: "Merriweather", serif;
     font-weight: 700;
@@ -228,9 +228,9 @@ main {
     display: flex;
     flex-direction: row;
     gap: 25px;
-    justify-content: center;
-    z-index: -1;
+
     object-fit: cover;
+    
 }
 
 .propostas__content__imgs img{
@@ -240,22 +240,20 @@ main {
 }
 
 .propostas__content__imgs__legendas {
-    color: black;
-    position: absolute;
-    z-index: 1;
-    display: flex;
+    display : flex;
     flex-direction: row;
-    font-family: "Merriweather", serif;
-    font-size: 15px;
-    font-weight: 500;
-    width: 100%;
-
-    margin-top : 2%;
-    justify-content: center;
-    gap: 23%;
-
-
+    position: absolute;
 }
+
+.propostas__content__imgs__legendas p {
+    font-family: "Merriweather", serif;
+
+    padding: 25px;
+    width: 570px;
+    
+}
+
+
 
 
 
