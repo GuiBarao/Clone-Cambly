@@ -283,10 +283,80 @@ main {
     margin-top: 10vh;
 }
 
+.planos {
+    display: flex;
+    flex-direction: column;
 
+}
 
+.planos__titulo {
+    font-family: "Merriweather", serif;
+    font-size: 76px;
+    text-align: center;
+    padding-top : 15vh;
 
+}
 
+.planos__info {
+    padding-top: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.planos__info__titulo {
+    font-family: "Merriweather", serif;
+    font-size: 44px;
+    font-weight: 500;
+    width: 35vh;
+}
+
+.planos__info__descricao {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    padding-top: 3vh;
+    padding-bottom: 6vh;
+}
+
+.planos__info__botao {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    border-radius: 50px;
+    padding : 3vh;
+    width: 50vh;
+    text-align: center;
+}
+
+.planos__info__a-partir-de {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    padding-top: 6vh;
+}
+
+.planos__info__preco-antigo {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    text-decoration: line-through;
+}
+
+.planos__info__preco-atual {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 13vh;
+}
+
+.planos__info__preco-atual__preco {
+    font-family: "Roboto", sans-serif;
+    font-size: 63px;
+}
+
+.planos__info__preco-atual__mensal {
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+}
 
 
 
