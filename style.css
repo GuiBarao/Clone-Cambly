@@ -410,7 +410,7 @@ main {
     font-family: "Roboto", sans-serif;
     font-size: 20px;
     font-weight: 500;
-    background-color: yellow;
+    background-color: #ffe733;
     padding: 4vh;
     align-self: center;
     border-radius: 50px;
@@ -522,4 +522,52 @@ main {
 
 }
 
+.conversa {
+    background-color: #ffe733;
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    align-items: center;
+    justify-content: space-evenly;
+}
 
+.conversa__titulo {
+    font-family: "Merriweather", serif;
+    font-size: 44px;
+}
+
+.conversa__botao{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    padding: 3vh;
+    border-radius: 50px;
+    width: 55vh;
+    text-align: center;
+}
+
+.comece {
+    color: white;
+    background-color: black;
+}
+
+.planos {
+    color: black;
+    background-color: #ffe733;
+    border: 2px solid rgba(135, 137, 138, 0.6);
+    
+}
+
+.conversa__botao-planos{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+
+.conversa__login {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+
+.conversa__login {
+    display: flex;
+    gap : 1vh;
+}
