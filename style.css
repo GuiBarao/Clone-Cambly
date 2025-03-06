@@ -389,5 +389,36 @@ main {
 
 }
 
+.explore {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    gap: 8vh;
+    background-color: #f4f4EB;
+
+}
+
+.explore__txt {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    color: #5E5952;
+}
+
+.explore__botao {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: yellow;
+    padding: 4vh;
+    align-self: center;
+    border-radius: 50px;
+}
+
+
+
+
+
 
 
