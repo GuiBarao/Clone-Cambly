@@ -474,8 +474,52 @@ main {
 }
 
 
+.trabalhe {
+    background-color: rgba(109, 209, 223, 0.6);
+    display: flex;
+    flex-direction: row;
+    padding: 15vh;
+    padding-top: 35vh;
+    padding-bottom: 35vh;
+}
 
+.trabalhe__img {
+    height: 70vh;
+    width: 115vh;
+}
 
+.trabalhe__content {
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    justify-content: space-between;
+    padding-left : 15vh;
+}
 
+.trabalhe__content__titulo {
+    font-family: "Merriweather", serif;
+    font-size: 76px;
+}
+
+.trabalhe__content__descricao {
+
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+
+}
+
+.trabalhe__content__botao {
+
+    
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    width: 32vh;
+    padding: 4vh;
+    border-radius: 50px;
+    white-space: nowrap;
+
+}
 
 
