@@ -286,7 +286,13 @@ main {
 .planos {
     display: flex;
     flex-direction: column;
+    background-color: #f4f4EB;
+}
 
+.planos__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .planos__titulo {
@@ -294,14 +300,18 @@ main {
     font-size: 76px;
     text-align: center;
     padding-top : 15vh;
-
+    padding-bottom: 15vh;
 }
 
 .planos__info {
-    padding-top: 15vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-color: white;
+    align-items: left;
+    padding: 32px;
+    width: 460px;
+    
 }
 
 .planos__info__titulo {
@@ -309,24 +319,34 @@ main {
     font-size: 44px;
     font-weight: 500;
     width: 35vh;
+    white-space: nowrap;
 }
 
 .planos__info__descricao {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     padding-top: 3vh;
-    padding-bottom: 6vh;
+    padding-bottom: 15vh;
 }
 
 .planos__info__botao {
+    display: flex;
     font-family: "Roboto", sans-serif;
     font-size: 20px;
+    font-weight: 500;
     color: white;
     background-color: black;
     border-radius: 50px;
     padding : 3vh;
+    justify-content: center;
+    align-self: center;
     width: 50vh;
-    text-align: center;
+}
+
+.botao-particular {
+
+    color: black;
+    background-color: #ffe733;
 }
 
 .planos__info__a-partir-de {
@@ -356,6 +376,17 @@ main {
 .planos__info__preco-atual__mensal {
     font-family: "Roboto", sans-serif;
     font-size: 25px;
+}
+
+.planos__beneficios {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 3vh;
+    padding: 3vh;
+
 }
 
 
