@@ -574,7 +574,10 @@ main {
 
 footer {
     background-color: black;
-    padding: 15vh;
+    padding: 10vh;
+    display: flex;
+    flex-direction: column;
+    gap: 9vh;
 }
 
 .footer-top {
@@ -626,3 +629,38 @@ footer {
     display: flex;
     gap: 3vh;
 }
+
+.opcoes-privacidade {
+    display: flex;
+    flex-direction: row;
+    gap : 1vh;
+    align-items: center;
+}
+
+.opcoes-privacidade__img {
+    height: 2vh;
+}
+
+.footer-linha {
+    background-color: #5E5952;
+    height: 0.1vh;
+
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-bottom img {
+    height: 13vh;
+}
+
+.footer-bottom p {
+    color: white;
+    align-self:flex-end;
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    font-weight: 200;
+}
+
