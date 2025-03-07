@@ -564,10 +564,27 @@ main {
 
 .conversa__login {
     font-family: "Roboto", sans-serif;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .conversa__login {
     display: flex;
     gap : 1vh;
+}
+
+footer {
+    background-color: black;
+}
+
+.footer-top {
+    display: flex;
+    flex-direction: row;
+    color: white;
+
+}
+
+.footer-top__content {
+    display: flex;
+    flex-direction: column;
+    color: white;
 }
