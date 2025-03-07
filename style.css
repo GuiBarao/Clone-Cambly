@@ -574,12 +574,14 @@ main {
 
 footer {
     background-color: black;
+    padding: 15vh;
 }
 
 .footer-top {
     display: flex;
     flex-direction: row;
     color: white;
+    justify-content: space-between;
 
 }
 
@@ -587,4 +589,34 @@ footer {
     display: flex;
     flex-direction: column;
     color: white;
+    font-family: "Roboto", sans-serif;
+    gap: 3vh;
+    
+}
+
+.footer-top__content__titulo {
+    font-size: 20px;
+    font-weight: 350;
+}
+
+.footer-top__content__opcao {
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.footer-top__reclame-aqui {
+    height: 8vh;
+    width: 21vh;
+    border-radius: 6px;
+}
+
+.footer-top__social {
+    display: flex;
+    gap: 3vh;
+}
+
+.footer-top__social__titulo {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 350;
 }
