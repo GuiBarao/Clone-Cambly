@@ -612,6 +612,7 @@ footer {
 
 .footer-top__social {
     display: flex;
+    flex-direction: column;
     gap: 3vh;
 }
 
@@ -619,4 +620,9 @@ footer {
     font-family: "Roboto", sans-serif;
     font-size: 20px;
     font-weight: 350;
+}
+
+.footer-top__social__imgs {
+    display: flex;
+    gap: 3vh;
 }
